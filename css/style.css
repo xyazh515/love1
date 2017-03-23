@@ -1,0 +1,35 @@
+body {
+	margin: 0 auto;  /*body所有元素居中*/
+}
+.block{
+	height: 80px;
+	width: 100%;
+	min-width: 1200px;
+	border-bottom: 1px #cacaca solid;
+}
+.block1{
+	height: 80px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.block1 ul{width: 600px;height: 80px;height: 100%;display: table;position: relative;line-height: 80px;}
+.block1 ul li{float: left;width: 150px;height: 80px;list-style: none;font-family: "微软雅黑";font-size: 20px;text-align: center;vertical-align: middle;}
+
+.block2{
+	width: 1200px;
+	margin: 0 auto;
+}
+.block3{
+	width: 1200px;
+	height: 400px;
+	background-image: url(../img/pic3.jpg);
+}
+.block4{
+	margin-top: 300px;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	font-family: "微软雅黑";
+	font-size: 26px;
+	float: left;
+}
