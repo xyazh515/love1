@@ -90,8 +90,24 @@ body {
   	height: 744px;
 }
 .love-right-game-bg{
-	width: 300px;
-	height: 300px;
-	margin: 0 auto;
+	width: 175px;
+	height: 302px;
+	float: left;
+}
+.love-right-game-bg1{
+	width: 302px;
+	height: 302px;
 	border: 1px solid;
+	float: left;
+}
+.love-right-game-line{
+	width: 300px;
+	height: 100px;
+	float: left;
+}
+.love-right-game-block{
+	width: 100px;
+	height: 100px;
+	float: left;
+	z-index: 1;
 }
