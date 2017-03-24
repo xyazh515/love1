@@ -1,35 +1,97 @@
 body {
 	margin: 0 auto;  /*body所有元素居中*/
+	width: 1920px;
+	min-width: 1920px;
+	height: 1080px;
+	min-height: 1080px;
+	background-image: url(../img/background.png);
 }
-.block{
-	height: 80px;
-	width: 100%;
-	min-width: 1200px;
-	border-bottom: 1px #cacaca solid;
-}
-.block1{
-	height: 80px;
-	width: 1200px;
-	margin: 0 auto;
-}
-.block1 ul{width: 600px;height: 80px;height: 100%;display: table;position: relative;line-height: 80px;}
-.block1 ul li{float: left;width: 150px;height: 80px;list-style: none;font-family: "微软雅黑";font-size: 20px;text-align: center;vertical-align: middle;}
-
-.block2{
-	width: 1200px;
-	margin: 0 auto;
-}
-.block3{
-	width: 1200px;
-	height: 400px;
-	background-image: url(../img/pic3.jpg);
-}
-.block4{
-	margin-top: 300px;
-	width: 80px;
-	height: 80px;
-	line-height: 80px;
-	font-family: "微软雅黑";
-	font-size: 26px;
+.love-left-bg{
+	width: 816px;
+	height: 1080px;
+	background-image: url(../img/pic1.png);
+	z-index: 1px;
 	float: left;
+}
+.love-left-txt{
+	width: 816px;
+	height: 80px;
+	margin-top: 250px;
+  	font-size: 90px;
+  	font-family: "STHeiti TC";
+  	color: #78aad6;
+  	line-height: 0.208;
+}
+.love-left-txt-time{
+	width: 110px;
+	height: 90px;
+	line-height: 90px;
+	margin-left: 518px;
+	background: #f5f6f6;
+}
+.love-left-txt-time1{
+	width: 588px;
+	height: 234px;
+	background-image: url(../img/pic-time-bg.png);
+	position: absolute;
+}
+.love-left-old{
+	width: 500px;
+	height: 150px;
+	border: 1px solid;
+	margin-top: 70px;
+	margin-left: 250px;
+}
+.love-left-game{
+	width: 510px;
+	height: 170px;
+	border: 1px solid;
+	margin-left: 160px;
+	margin-top: 25px;
+}
+.love-left-future{
+	width: 510px;
+	height: 170px;
+	border: 1px solid;
+	margin-left: 220px;
+	margin-top: 25px;
+}
+.love-right-bg{
+	width: 654px;
+  	height: 744px;
+  	border: 1px solid #a6d9e5;
+  	z-index: 1;
+  	border-radius: 20px;
+  	position: absolute;
+  	left: 1012px;
+  	top: 150px;
+  	background: rgba(255, 255, 255, 0.651);
+}
+.love-right-old{
+	width: 654px;
+  	height: 744px;
+  	overflow:auto;
+  	display: none;
+}
+.love-old-block1{
+	width: 654px;
+	height: 200px;
+	font-family: "STHeiti TC";
+	font-size: 20px;
+}
+
+.test{
+	width: 654px;
+	height: 200px;
+	border: 1px solid;
+}
+.love-right-game{
+	width: 654px;
+  	height: 744px;
+}
+.love-right-game-bg{
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	border: 1px solid;
 }

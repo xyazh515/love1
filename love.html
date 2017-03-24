@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+   		<link rel="stylesheet" href="css/style.css" />
+		<title></title>
+		<script>
+    	function co(title,Intime,divld){
+    		var online=new Date(Intime);
+    		var now=new Date();
+    		var leave=online.getTime()-now.getTime();
+    		var day=Math.floor(leave/(1000*60*60*24)+1);
+    		if(day>1){
+    				divld.innerHTML=day;
+    		}
+    		else if(day==1){
+    				
+    					divld.innerHTML="<b>--明天就是"+title+"啦</b>";
+    				
+    			}
+    		else if(day==0){
+    			
+    					divld.innerHTML="<b>--今天就是"+title+"啦</b>";
+    				
+    		}
+    		else{
+    			
+    					divld.innerHTML="<b>--哎呀！"+title+"已经过啦</b>";
+    				
+    		}
+    	}
+    </script>
+	</head>
+	<body>
+		<div class="love-left-bg">
+			<div class="love-left-txt">
+				<div class="love-left-txt-time" id="time">6</div>
+			</div>
+			<div class="love-left-old"></div>
+			<div class="love-left-game"></div>
+			<div class="love-left-future"></div>
+		</div>
+		<div class="love-right-bg">
+			<div class="love-right-old">
+				<div class="love-old-block1" style="clear: both;">
+					<div style="margin-top: 10px;margin-left: 10px;width: 280px;float: left;">我们的认识充满了缘分，第一次看到你的样子，你是这样的:<br/>当时觉得，这女生脸圆圆的，好可爱呀，当时就想
+						<img src="img/timg.gif"  style="float: right;"/>
+					</div>
+					<img src="img/pic1.jpg" style="float: left;margin-left: 30px;" />
+					<img src="img/pic2.jpg" style="float: left;margin-left: 10px;" />
+				</div>	
+				<div class="love-old-block1" style="clear: both;margin-top: 20px;">
+					<div style="margin-top: 10px;margin-left: 10px;width: 280px;float: left;">
+						第一次去福州，泉州，陪你考试。。记得最清楚的是，你肚子痛，帮你揉肚子。。
+						<br />这个照片就木有了。。。
+					</div>
+					<img src="img/pic3.jpg" style="float: left;margin-left: 5px;" />
+					<img src="img/pic4.jpg" style="float: left;margin-left: 5px;" />					
+				</div>	
+				<div class="love-old-block1" style="clear: both;margin-top: 20px;">
+					<div style="margin-top: 10px;margin-left: 10px;width: 280px;float: left;">
+						再就是去杭州玩，杭州乌镇是好地方，可惜你这个雨神，没到一个地方，就狂下雨
+					</div>
+					<img src="img/pic3.jpg" style="float: left;margin-left: 5px;" />
+					<img src="img/pic4.jpg" style="float: left;margin-left: 5px;" />					
+				</div>
+				<div class="love-old-block1" style="clear: both;margin-top: 20px;">
+					<div style="margin-top: 10px;margin-left: 10px;width: 280px;float: left;">
+						去北戴河玩，我们还看了海，吃了海鲜，玩的确实挺开心的哇
+					</div>
+					<img src="img/pic5.jpg" style="float: left;margin-left: 30px;" />
+					<img src="img/pic6.jpg" style="float: left;margin-left: 10px;" />					
+				</div>
+				<div class="love-old-block1" style="clear: both;margin-top: 20px;">
+					<div style="margin-top: 10px;margin-left: 10px;width: 280px;float: left;">
+						来北京的时候，你给我做饭吃了，真的很好吃，糖醋排骨，还有花蛤
+					</div>
+					<img src="img/pic7.jpg" style="float: left;margin-left: 30px;" />
+					<img src="img/pic8.jpg" style="float: left;margin-left: 10px;" />					
+				</div>
+				<div class="love-old-block1" style="clear: both;margin-top: 20px;">
+					<div style="margin-top: 10px;margin-left: 10px;width: 280px;float: left;">
+						还有去长沙，吃了小吃，你也尝了臭豆腐，大香肠，还吃了好辣的九宫格火锅
+					</div>
+					<img src="img/pic9.jpg" style="float: left;margin-left: 5px;" />
+					<img src="img/pic10.jpg" style="float: left;margin-left: 5px;" />
+					<img src="img/pic11.jpg" style="float: left;margin-left: 5px;" />
+				</div>
+				<div class="love-old-block1" style="clear: both;margin-top: 20px;">
+					<div style="margin-top: 10px;margin-left: 10px;width: 280px;float: left;">
+						还有可爱的你和可爱的小乖
+					</div>
+					<img src="img/pic12.jpg" style="float: left;margin-left: 30px;" />
+					<img src="img/pic13.jpg" style="float: left;margin-left: 15px;" />
+				</div>
+				<div class="love-old-block1" style="clear: both;margin-top: 20px;">
+					<div style="margin-top: 40px;margin-left: 10px;width: 600px;">
+						我们在一起四年了，宝宝，各种各样的经历，满满的都是回忆。希望我们以后生的孩子也能像小乖一样可爱，也能像你这么可爱。
+						<br />
+						<div style="text-align: center;font-size: 60px;color: pink;">loving you!</div>
+						<div style="text-align: center;font-size: 60px;color: pink;">么么哒！</div>						
+					</div>					
+				</div>
+			</div>
+			
+			<div class="love-right-game">
+				<div class="love-right-game-bg"></div>
+			</div>
+			
+			
+		</div>
+		
+		<script language="JavaScript">
+  		co("周年","3/30/2017",time);
+   		</script>
+	</body>
+</html>
+
+
