@@ -38,21 +38,18 @@ body {
 .love-left-old{
 	width: 500px;
 	height: 150px;
-	border: 1px solid;
 	margin-top: 70px;
 	margin-left: 250px;
 }
 .love-left-game{
 	width: 510px;
 	height: 170px;
-	border: 1px solid;
 	margin-left: 160px;
 	margin-top: 25px;
 }
 .love-left-future{
 	width: 510px;
 	height: 170px;
-	border: 1px solid;
 	margin-left: 220px;
 	margin-top: 25px;
 }
@@ -88,10 +85,38 @@ body {
 .love-right-game{
 	width: 654px;
   	height: 744px;
+  	display: block;
 }
 .love-right-game-bg{
-	width: 300px;
-	height: 300px;
-	margin: 0 auto;
+	width: 175px;
+	height: 302px;
+	float: left;
+}
+.love-right-game-bg1{
+	width: 303px;
+	height: 303px;
 	border: 1px solid;
+	float: left;
+}
+.love-right-game-line{
+	width: 303px;
+	height: 101px;
+}
+.love-right-game-block{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.love-right-game-bg2{
+	width: 303px;
+	height: 303px;
+	position: absolute;
+	z-index: 3px;
+	left: 175px;
+	display: none;
+	top: 0px;
+}
+.love-right-future{
+	width: 654px;
+  	height: 744px;
 }
