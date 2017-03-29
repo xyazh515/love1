@@ -93,19 +93,31 @@ body {
 	float: left;
 }
 .love-right-game-bg1{
+<<<<<<< HEAD
 	width: 303px;
 	height: 303px;
+=======
+	width: 302px;
+	height: 302px;
+>>>>>>> origin/master
 	border: 1px solid;
 	float: left;
 }
 .love-right-game-line{
+<<<<<<< HEAD
 	width: 303px;
 	height: 101px;
+=======
+	width: 300px;
+	height: 100px;
+	float: left;
+>>>>>>> origin/master
 }
 .love-right-game-block{
 	width: 100px;
 	height: 100px;
 	float: left;
+<<<<<<< HEAD
 }
 .love-right-game-bg2{
 	width: 303px;
@@ -119,4 +131,7 @@ body {
 .love-right-future{
 	width: 654px;
   	height: 744px;
+=======
+	z-index: 1;
+>>>>>>> origin/master
 }
